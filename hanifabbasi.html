@@ -1,0 +1,52 @@
+<script src="https://cdn.radiantmediatechs.com/rmp/5.5.5/js/rmp.min.js"></script>
+    <style>body{margin:0;} .rmp-logo.rmp-logo{position: fixed;top: 5px;left:3px;width:40px;}</style> 
+    <center>
+        <div>
+            <div id="araintv" style=" width: 100%"></div>
+        </div>
+        
+    </center>
+    <script>
+        (function () {
+            var src = {
+                             hls: 'https://6zklx4wryw9b-hls-live.5centscdn.com/arydigital/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8'
+                                      };
+            var streamrootConfig = {
+                type: 'hlsjs',
+                streamrootKey: 'eWZmZ2d2Y3BrdEAxNTMwNjA22',
+                dnaConfig: {},
+            };
+
+            var settings = {
+                licenseKey: 'eWZmZ2d2Y3BrdEAxNTMwNjA2',
+                streamrootConfig: streamrootConfig,
+                src: src,
+                // Recommended settings for HLS streaming
+                hlsJSMaxBufferSize: 0,
+                hlsJSMaxBufferLength: 30,
+                hlsJSLiveSyncDuration: 30, // Not needed for VoD streams
+                forceHlsJSOnMacOSIpadOSSafari: true, //To activate Streamroot on Safari Mac OS. Only from player 5.4.10+.
+                delayToFade: 1000,
+                width: 1000,
+                height: 600,
+                muted: false,
+                skin: 's4',
+            
+                        
+            	isLive: true,
+                                        autoplay: true,
+                poster: '/assets/poster.jpg',
+				preload: 'auto',
+				logo: '#',
+				logoLoc: '#',
+				logoPosition: 'topleft',
+				logoWatermark: true,
+                
+                
+            };
+            var elementID = 'araintv';
+            var rmp = new RadiantMP(elementID);
+            rmp.init(settings);
+        })();
+       
+    </script>
