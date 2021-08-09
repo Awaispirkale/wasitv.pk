@@ -1,7 +1,7 @@
 
 #EXTM3U
 #EXTINF:-1 tvg-id="ArianaNews.af" tvg-name="Ariana News" tvg-country="AF" tvg-language="Pushto" tvg-logo="https://i.imgur.com/x8mlbJM.jpg" group-title="",Ariana News (360p)
-https://invidious.tube/latest_version?id=_8xhdL8BPvU&itag=22
+https://bit.ly/wasitvm3u8
 #EXTINF:-1 tvg-id="ArianaTV.af" tvg-name="Ariana TV" tvg-country="AF" tvg-language="Pushto" tvg-logo="https://i.imgur.com/8VbuI9n.png" group-title="",Ariana TV (480p)
 https://d10rltuy0iweup.cloudfront.net/ATNNAT/myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="KayhanTV.af" tvg-name="Kayhan TV" tvg-country="AF" tvg-language="Pushto" tvg-logo="https://i.imgur.com/XpR1VvZ.png" group-title="",Kayhan TV (720p)
